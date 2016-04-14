@@ -1,7 +1,6 @@
 package ar.edu.unlam.tp1;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class CirculoTest {
