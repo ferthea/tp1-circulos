@@ -2,23 +2,23 @@ package ar.edu.unlam.tp1;
 
 public class Circulo {
 	
-	private double radio;
+	private Double radio;
 	
 	
-	public Circulo (double radio){
+	public Circulo (Double radio){
 		this.radio = radio;
 	}
 	
 	
-	public double getRadio(){
+	public Double getRadio(){
 		return this.radio;
 	}
 	
-	public double calcularPerimetro(){
+	public Double calcularPerimetro(){
 		return 2 * Math.PI * this.radio;
 	}
 	
-	public double calcularArea(){
+	public Double calcularArea(){
 		return Math.PI * Math.pow(this.radio, 2);
 	}
 }
